@@ -1,0 +1,61 @@
+.main-footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.col {
+  text-align: left;
+}
+
+.col-sm {
+  margin-bottom: 0;
+}
+
+.link_style {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+  width: 6%;
+}
+
+.icon {
+  height: 50px;
+  width: auto;
+}
+
+@media only screen and (max-width: 1020px) {
+  .icons {
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  .row > * {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .row > * {
+    width: 33%;
+    --bs-gutter-x: 0;
+  }
+}
