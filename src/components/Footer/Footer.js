@@ -39,18 +39,18 @@ const Footer = () => {
         <hr />
         <div className="row icons">
           <a
-            href="https://www.instagram.com/floatthehighlands/"
+            href="https://www.instagram.com/europeanonewheelleague/"
             target="_blank"
           >
             <img className="icon" src={instagram} alt="instagram icon" />
           </a>
-          <a href="https://www.facebook.com/floatthehighlands" target="_blank">
-            <img className="icon" src={facebook} alt="facebook icon" />
-          </a>
           <a
-            href="https://youtube.com/channel/UCPI4M6oPKCszuSAFTz1Jp9Q"
+            href="https://www.facebook.com/europeanonewheelleague"
             target="_blank"
           >
+            <img className="icon" src={facebook} alt="facebook icon" />
+          </a>
+          <a href="https://youtube.com/" target="_blank">
             <img
               className="icon"
               src={youtube}
