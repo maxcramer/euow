@@ -1,12 +1,12 @@
 .main-footer {
   text-align: center;
-  background-color: black;
+  background-color: cadetblue;
   color: white;
   padding-top: 3rem;
-  position: relative;
+  /* position: relative; */
   bottom: 0;
   width: 100%;
-  position: fixed;
+  position: relative;
 }
 
 .col {

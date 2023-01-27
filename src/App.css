@@ -24,15 +24,9 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: 34px !important;
 }
