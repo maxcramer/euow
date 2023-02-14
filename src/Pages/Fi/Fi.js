@@ -3,9 +3,9 @@ import React from "react";
 import Fi5 from "../../media/Fi/Fi5.jpg";
 import Fi4 from "../../media/Fi/Fi4.jpg";
 
-import facebook from "../../components/media/facebook.png";
-import instagram from "../../components/media/instagram.png";
-import youtube from "../../components/media/youtube.png";
+import facebook from "../../media/Socials/facebook.png";
+import instagram from "../../media/Socials/instagram.png";
+import youtube from "../../media/Socials/youtube.png";
 
 import "./Fi.css";
 

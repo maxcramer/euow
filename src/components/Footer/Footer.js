@@ -1,8 +1,8 @@
 import React from "react";
 
-import facebook from "../media/facebook.png";
-import instagram from "../media/instagram.png";
-import youtube from "../media/youtube.png";
+import facebook from "../../media/Socials/facebook.png";
+import instagram from "../../media/Socials/instagram.png";
+import youtube from "../../media/Socials/youtube.png";
 
 import "./footer.css";
 
