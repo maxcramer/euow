@@ -6,6 +6,14 @@
   background-color: cadetblue !important;
 }
 
+a {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: cadetblue !important;
+}
+
 #nav-logo {
   height: 3rem !important;
   width: auto;
