@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="row">
           {/* column 1 */}
           <div className="col info_footer">
-            <h4>European Onewheel League</h4>
+            <h4 className="bold">European Onewheel League</h4>
             <ul className="list-unstyled">
               <li>info@TBD.com</li>
               <li>Europe</li>
@@ -60,7 +60,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <p className="col-sm">
+          <p className="col-sm ">
             &copy;{new Date().getFullYear()} European Onewheel League | All
             rights reserved |{" "}
             <a className="link_style" href="/rules&regs">

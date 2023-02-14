@@ -8,10 +8,16 @@
   bottom: 0;
   width: 100%;
   position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 4px;
 }
 
 .col {
   text-align: left;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .info_footer {
