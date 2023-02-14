@@ -5,6 +5,8 @@
   width: 100%;
   /* background-color: cadetblue !important; */
   background-color: black !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 4px;
 }
 
 a {
