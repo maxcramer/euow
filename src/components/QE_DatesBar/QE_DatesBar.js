@@ -12,8 +12,10 @@ import "./QE_DatesBar.css";
 const QE_DatesBar = () => {
   return (
     <div className="qe_bg">
-      <h3 className="qe_title">QUALIFYING</h3>
-      <h3 className="qe_title under">EVENTS</h3>
+      <div className="qe_title_container">
+        <h3 className="qe_title">QUALIFYING</h3>
+        <h3 className="qe_title under">EVENTS</h3>
+      </div>
       <div className="qe_dates_container">
         <a href="/fth" className="qe_dates_item">
           <img className="qe_date_img" src={FthLogo} alt="" />

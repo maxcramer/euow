@@ -16,3 +16,10 @@
   margin: 0 auto;
   letter-spacing: 3px;
 }
+
+/* for ipad and desktop  */
+@media (min-width: 1200px) {
+  .about_container {
+    text-align: left;
+  }
+}
