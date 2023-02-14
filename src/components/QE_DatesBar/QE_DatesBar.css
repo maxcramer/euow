@@ -35,9 +35,17 @@
   height: 7rem;
 }
 
+.fi_logo {
+  height: 14rem;
+  background: white;
+  border-radius: 20px;
+  padding: 7px;
+}
+
 .qe_date_item_title {
   letter-spacing: 4px;
   font-size: 27px;
+  margin-top: 1rem;
 }
 
 .qe_date_item_info {

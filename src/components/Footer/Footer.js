@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           {/* column 1 */}
-          <div className="col">
+          <div className="col info_footer">
             <h4>European Onewheel League</h4>
             <ul className="list-unstyled">
               <li>info@TBD.com</li>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="row icons">
+        <div className="icons">
           <a
             href="https://www.instagram.com/europeanonewheelleague/"
             target="_blank"

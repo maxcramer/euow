@@ -1,6 +1,7 @@
 .main-footer {
   text-align: center;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  background-color: black;
   color: white;
   padding-top: 3rem;
   /* position: relative; */
@@ -11,6 +12,10 @@
 
 .col {
   text-align: left;
+}
+
+.info_footer {
+  margin-left: 1rem;
 }
 
 .col-sm {
@@ -25,7 +30,7 @@
 
 .icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 2rem;
   width: 6%;
 }
@@ -33,6 +38,7 @@
 .icon {
   height: 50px;
   width: auto;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 1020px) {

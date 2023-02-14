@@ -5,6 +5,7 @@ import Logo from "../../media/logo.png";
 // import logo from "../../media/Fth/logo.pgn";
 
 import FthLogo from "../../media/Fth/FthLogo.png";
+import LogoFi from "../../media/Fi/Logo/LogoFi 4.png";
 
 import "./QE_DatesBar.css";
 
@@ -25,18 +26,22 @@ const QE_DatesBar = () => {
             </a>
           </div>
         </a>
+        <a href="/fi" className="qe_dates_item">
+          <img className="qe_date_img fi_logo" src={LogoFi} alt="" />
+          <h4 className="qe_date_item_title">Float Italia</h4>
+          <div className="qe_date_item_info">
+            <p>Gattinara, Italy</p>
+            <p className="qe_date_item_date">26/05/2023 - 28/05/2023</p>
+            <a href="/fi" className="qe_date_item_link">
+              Click here for more
+            </a>
+          </div>
+        </a>
         <div className="qe_dates_item">
           <img className="qe_date_img" src={Logo} alt="" />
-          <h4 className="qe_date_item_title">Title</h4>
-          <h5 className="qe_date_item_date">01/03/2023</h5>
-          <a href="/fi" className="qe_date_item_link">
-            Click here for more
-          </a>
-        </div>
-        <div className="qe_dates_item">
-          <img className="qe_date_img" src={Logo} alt="" />
-          <h4 className="qe_date_item_title">Title</h4>
-          <h5 className="qe_date_item_date">01/03/2023</h5>
+          <p className="qe_date_item_title">Title</p>
+          <p>Gattinara, Italy</p>
+          <p className="qe_date_item_date">01/03/2023</p>
           <a href="/fi" className="qe_date_item_link">
             Click here for more
           </a>
