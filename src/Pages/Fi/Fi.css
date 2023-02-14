@@ -1,7 +1,7 @@
 .banner_img {
   width: 100vw;
-  height: 100vh;
-  /* margin-top: -20rem; */
+  /* height: 100vh; */
+  margin-top: -10rem;
 }
 
 .banner_container {
@@ -24,7 +24,7 @@ h2 {
 }
 
 .img_cover {
-  height: 100vh;
+  height: 97.4vh;
   z-index: 1;
   width: 100vw;
   position: absolute;

@@ -1,0 +1,17 @@
+.img_cover_home {
+  height: 100vh;
+  z-index: 1;
+  width: 100vw;
+  position: absolute;
+  background: black;
+  opacity: calc(0.5);
+}
+
+.home_dummy_text {
+  z-index: 2;
+  color: white;
+  position: relative;
+  text-align: center;
+  /* margin-top: 20%; */
+  font-size: 200px;
+}
