@@ -3,7 +3,8 @@
   top: 0;
   z-index: 10;
   width: 100%;
-  background-color: cadetblue !important;
+  /* background-color: cadetblue !important; */
+  background-color: black !important;
 }
 
 a {
@@ -11,7 +12,7 @@ a {
 }
 
 .dropdown-menu {
-  background-color: cadetblue !important;
+  background-color: black !important;
 }
 
 #nav-logo {

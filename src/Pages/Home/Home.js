@@ -1,4 +1,5 @@
 import React from "react";
+import OE_DatesBar from "../../components/OE_DatesBar/OE_DatesBar.js";
 
 import QE_DatesBar from "../../components/QE_DatesBar/QE_DatesBar.js";
 
@@ -11,6 +12,7 @@ const Home = () => {
         <h1 className="home_dummy_text">VIDEO / IMAGE</h1>
       </div>
       <QE_DatesBar />
+      <OE_DatesBar />
     </div>
   );
 };
