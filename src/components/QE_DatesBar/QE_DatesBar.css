@@ -1,12 +1,16 @@
-.qe_dates_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.qe_bg {
   width: 85%;
   background-color: black;
   margin: 5rem auto;
   border-radius: 7px;
   min-height: 30rem;
+  padding-bottom: 3rem;
+}
+
+.qe_dates_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .qe_title {
@@ -37,9 +41,16 @@
 
 .fi_logo {
   height: 14rem;
+}
+
+.qe_date_img_bg_white {
   background: white;
   border-radius: 20px;
   padding: 7px;
+}
+
+.sor_logo {
+  height: 10rem;
 }
 
 .qe_date_item_title {
